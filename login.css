@@ -1,0 +1,92 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+    min-height: 100vh;
+    color:rgb(255, 255, 255);
+    background-image: url(login.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  
+}
+#form-box{
+    text-align: center;
+    position: absolute;
+    top:14rem;
+    left: 38rem;
+    right: 50rem;
+    border-radius: 12px;
+    padding:19px;
+    border: 3px solid  rgba(255, 255, 255, 0.5);
+background-color: transparent;
+width: 300px; height: 350px;  
+backdrop-filter: blur(3px);
+     }
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 4.5rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+}
+form #inputbox #email{
+    
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 2rem;;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(195, 195, 249);
+    letter-spacing: 0.1rem;
+   
+}
+form #inputbox #email:hover{
+    border: 2px solid blue;
+}
+
+
+form #inputbox #password{
+    width: 95%;
+  
+   padding: 5px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 2px solid  rgba(255, 255, 255, 0.5);
+    background-color: rgb(198, 198, 247);
+    letter-spacing: 0.1rem;
+}
+form #inputbox #password:hover{
+    border: 2px solid blue;
+    }
+    form #forget{
+        margin-bottom:1.3rem;
+    }
+    form #forget a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+    }
+    form #forget a:hover{
+        text-decoration: underline;
+    }
+form #value{
+   width: 82%;
+   font-size: 1.3rem;
+     font-family: 'Courier New', Courier, monospace;
+     border-radius: 5px;
+     border:2px solid  rgba(255, 255, 255, 0.5);
+     background-color: transparent;
+     color: white;
+  }
+  form #value:hover{
+
+    color:rgb(53, 155, 155);
+  }
+  form #registre a{
+    text-decoration: none;
+    color:white;
+}
+form #registre a:hover{
+    text-decoration: underline;}

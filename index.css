@@ -1,0 +1,293 @@
+
+body{ 
+    background-color: black;
+     margin: 0;
+     padding: 0;
+  
+     font-family: 'Hind Guntur', sans-serif;
+    
+}
+
+
+
+#pic{
+   
+     background:rgba(0, 0, 0, 0.6) url(image/start.jpg) ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: darken ;
+     min-height: 100vh;
+}
+
+div h3{
+    font-size:60pt;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100%;}
+
+.para{
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 16pt;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.colo{
+    color:  #02ffaf;
+}
+
+
+#navbar {
+    background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+    
+  
+  }
+  #navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  
+}
+  
+#navbar li{
+      display: inline-block;
+      margin-right: 20px;
+
+}
+
+  #navbar a   {
+    width:100px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;  }
+  
+  
+  
+  #navbar a:hover {
+    background: rgba(118, 249, 221,0.9);
+    opacity: 80%;
+    border-radius: 30%;
+  }
+  
+  .regbtn:hover{
+
+    background: #00e6a6;
+  }
+  .regbtn{
+    background-color: #02ffaf;
+    text-align: center;
+    width: auto;
+    padding: 10px 100px;
+    border: none;
+    cursor: pointer; font-size: 16px;
+    border-radius: 5px;
+  
+
+  }  
+
+
+  button a {
+    color:black ;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+}
+  
+
+form {
+    text-align: center}
+
+.aboutus{
+        background-color: black;
+        margin: 100px auto;
+        width: 75%;
+    }
+
+.abuspara{
+    color:  #02ffaf;
+    text-align: left;
+}
+ 
+.au{
+    color: white;
+    font-weight: 100;
+    font-size: xxx-large;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+  .parag{
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 16pt;
+    line-height: 140%;
+    text-align: left;
+    color: #ffffff;
+}
+table tr td img{
+  opacity: 58%;
+}
+
+.learn-more {
+  background-color: #02ffaf;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #00e6a6;
+}
+
+
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columns {
+  width: 20%;
+  padding: 18px;
+}
+
+.price {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color:#02ffaf ;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgb(0, 255, 191,0.9)
+}
+
+.price .header {
+  background-color: #02ffaf;
+  ;
+  color: black;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid  #02ffaf;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #000000;
+  font-size: 20px;
+}
+
+.button {
+  background-color:  #02ffaf;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+p{
+  color: #ffffff;
+}
+
+h2{
+  color: #ffffff;
+}
+
+.success-stories{
+  margin: 130px;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#nav a{
+  float: right;
+    width:100px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;  }
+  
+
+
+ #final {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+ }
+
+ #nav a img{
+  width: 45%;
+  aspect-ratio: 4/3;
+ object-fit: contain;
+ background-color: #000000;
+ }
+ #nav  #A1 :hover{
+  transform: scale(1.2);
+  }
+
+  #nav  #A3 :hover{
+    transform: scale(1.2);
+    }
+
+    #nav  #A2 :hover{
+      transform: scale(1.2);
+      }
+    
+h5 a{
+  text-decoration: none;
+  color: #00e6a6;
+}
